@@ -1,0 +1,60 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Date Picker Styling */
+input[type="date"] {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Selected Date Display */
+.display-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e3e3e3;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Library Hours Message */
+#libraryHours {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff4500;
+}
